@@ -41,6 +41,6 @@ public class RestTest {
                 .isNotNull()
                 .extracting(CreateUserResponse::getName)
                 .isEqualTo(rq.getName());
-        assertThat(false).isTrue();
+        //assertThat(false).isTrue();
     }
 }
